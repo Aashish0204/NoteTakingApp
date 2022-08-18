@@ -58,6 +58,13 @@ function App() {
               </>
           }>
         </Route>
+        <Route exact path="NoteTakingApp/" element={
+              <>
+                <Addtask addTodos={addTodos} />
+                <Todos todos={todos} deleteit={deleteit} />
+              </>
+          }>
+        </Route>
         <Route exact path="/about" element={
               <>
                 <About />
