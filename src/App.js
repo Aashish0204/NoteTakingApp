@@ -51,7 +51,7 @@ function App() {
       <BrowserRouter>
       <Header title="My Todos List" searchbar={true} />
       <Routes>
-        <Route exact path="/" element={
+        <Route exact path="/NoteTakingApp" element={
               <>
                 <Addtask addTodos={addTodos} />
                 <Todos todos={todos} deleteit={deleteit} />
